@@ -49,19 +49,19 @@ printf "\e[1;92m[\e[0m\e[1;77m5\e[0m\e[1;92m]\e[0m\e[1;93m Exit\e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m' option
 
 if [[ $option == 1 || $option == 01 ]]; then
-cd $HOME/ighack/main
+cd $HOME/InstaHack/main
 bash auto.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd $HOME/ighack/main
+cd $HOME/InstaHack/main
 bash manual.sh
 elif [[ $option == 3 || $option == 03 ]]; then
-cd $HOME/ighack/core
+cd $HOME/InstaHack/core
 bash about.sh
 elif [[ $option == 4 || $option == 04 ]]; then                                                                                                                
-cd $HOME/ighack/core
+cd $HOME/InstaHack/core
 bash update.sh
 elif [[$option ==5 || $option == 05 ]]; then
-cd $HOME/ighack/core
+cd $HOME/InstaHack/core
 bash info.sh
 elif [[ $option == 8 ]]; then
 exit 1
